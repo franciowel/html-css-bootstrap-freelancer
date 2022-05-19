@@ -30,6 +30,11 @@ nav a{
     color: white;
 }
 
+.ms_section_green a{
+    padding: 1rem 0;
+    text-align: center;
+}
+
 .ms_personal_contain{
     width: 60%;
     margin: 0 auto;
@@ -42,12 +47,19 @@ nav a{
     padding: 2.5rem 0;
 }
 
-.ms_section_white h2,
-.ms_section_white p{
-    text-align: center;
-}
-
 .ms_card_col{
     padding: 1rem 0;
 }
+
+/* TITLE & P */
+.ms_title, .ms_p{
+    text-align: center;
+}
+
+.ms_form{
+    text-align: left;
+}
+
+
+
 
