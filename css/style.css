@@ -60,6 +60,24 @@ nav a{
     text-align: left;
 }
 
+/* FOOTER */
+footer{
+    color: white;
+}
+
+/* UPPER FOOTER */
+.upper_foot{
+    padding: 2.5rem 0;
+    background-color: #3a546d;
+}
+
+/* BOTTOM FOOTER */
+.bottom_foot{
+    padding: 1.5rem 0;
+    background-color: #2c3e50;
+    text-align: center;
+}
+
 
 
 
