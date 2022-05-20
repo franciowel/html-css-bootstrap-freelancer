@@ -223,6 +223,26 @@ h4{
         margin: 0 auto;
         padding-bottom: 1rem;
     }
+
+    .ms_star_white::before,
+    .ms_star_white::after{
+        content: "";
+        width: 60px;
+        height: 3px;
+        display: inline-block;
+        vertical-align: middle;
+        background-color: white;
+    }
+
+    .ms_star_black::before,
+    .ms_star_black::after{
+        content: "";
+        width: 60px;
+        height: 3px;
+        display: inline-block;
+        vertical-align: middle;
+        background-color: black;
+    }
     
 }
 
