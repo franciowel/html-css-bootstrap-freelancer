@@ -21,8 +21,27 @@ nav a{
     text-decoration: none;
 }
 
-/* MAIN */
+.ms_logo_pagina{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
 
+/* MAIN */
+.foto_pagina{
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.foto_pagina img{
+    width: 100%;
+}
+
+.ms_section_green h1{
+    padding-top: 1rem;
+    font-weight: bold;
+}
 
 /* SEZIONI GREEN */
 .ms_section_green{
