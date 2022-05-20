@@ -1,3 +1,40 @@
+/* COMMONS */
+.ms_stars{
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+}
+
+.ms_star_white::before,
+.ms_star_white::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+}
+
+.ms_star_black::before,
+.ms_star_black::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: black;
+}
+
+h2{
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ms_about_text{
+    text-align: left;
+}
+
 /* HEADER */
 header{
     height: 80px;
@@ -40,7 +77,18 @@ nav a{
 
 .ms_section_green h1{
     padding-top: 1rem;
+    font-size: 3rem;
     font-weight: bold;
+}
+
+.ms_info_job{
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+.ms_card_col img{
+    width: 100%;
+    border-radius: 20px;
 }
 
 /* SEZIONI GREEN */
@@ -79,6 +127,14 @@ nav a{
     text-align: left;
 }
 
+/* BUTTONS */
+.ms_button_download{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 1.5rem;
+}
+
 /* FOOTER */
 footer{
     color: white;
@@ -96,6 +152,10 @@ footer{
     background-color: #2c3e50;
     text-align: center;
 }
+
+/* RESPONSIVE CORRRECTION */
+
+
 
 
 
